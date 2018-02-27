@@ -1,0 +1,23 @@
+<!Doctype html5>
+<html>
+  <head>
+    <title>
+      step1
+    </title>
+    <script>
+      window.onload = function () {
+        var cnv = document.getElementById("canvas")
+        var cxt = cnv.getContext("2d")
+        cxt.moveTo(50, 100)
+        cxt.lineTo(400,100)
+        cxt.lineTo(600,300)
+        cxt.moveTo(60, 300)
+        cxt.lineTo(400,100)
+        cxt.stroke()
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="canvas" width="800" height="600" style="border: 1px dashed gray;" ></canvas>
+  </body>
+</html>
